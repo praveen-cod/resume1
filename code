@@ -1,0 +1,79 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{paracol}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=0pt, left=0pt}
+\definecolor{primary}{RGB}{0, 102, 204}
+\definecolor{graytext}{gray}{0.4}
+
+% Remove colored boxes around links, use colored text instead
+\hypersetup{
+    colorlinks=true,
+    urlcolor=primary,
+    linkcolor=primary,
+    citecolor=primary,
+    pdfborder={0 0 0}
+}
+
+\titleformat{\section}{\color{primary}\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}[runin]{\bfseries}{}{0pt}{}[ -- ]
+
+\begin{document}
+
+{\LARGE \textbf{Praveen K}}\\[2pt]
+\textcolor{graytext}{
+\href{mailto:praveenkth530@gmail.com}{praveenkth530@gmail.com} \quad | \quad +91-6381945199 \\
+Chennai, India \quad | \href{https://www.linkedin.com/in/praveen-k-994698302}{www.linkedin.com/in/praveen-k-994698302} \quad | \href{https://github.com/praveen-cod}{https://github.com/praveen-cod}
+}
+\rule{\textwidth}{0.5pt}
+
+\vspace{0.7em}
+
+\section*{Profile Summary}
+Third-year B.Tech Information Technology student with a strong foundation in programming and problem-solving. Currently learning Flutter and Dart to build efficient, cross-platform mobile applications. Gained hands-on experience through academic projects like a Smart AI Classroom with face recognition. Eager to apply skills to real-world challenges and grow as a mobile app developer.
+
+\section*{Education}
+\textbf{B.Tech-Information Technology} \hfill Panimalar Engineering College\\
+Affiliated to Anna University \hfill \textit{Expected: May 2027} \\
+CGPA: 8.96 / 10
+
+\textbf{HSC – State Board} \hfill Parmveer Banasingh Vidya Academy Of Excellence \\
+\textit{2022} – 84\%
+
+\section*{Skills}
+\begin{itemize}
+    \item Languages: Java (Intermediate), Dart (Basics), Python (Basics), C (Basics)
+    \item App Development: Flutter
+    \item Tools: Git, Android Studio
+\end{itemize}
+
+\section*{Projects}
+\textbf{Smart AI Classroom} \\
+A web-based platform that automates student attendance using face recognition and streamlines assignment management. Integrated Google Calendar API for deadline alerts and auto-email notifications, enhancing classroom efficiency and student accountability.
+
+\section*{Internships}
+\textbf{Java Programming Intern – Code Tech IT Solutions} \hfill July 2025 – August 2025 \\
+\begin{itemize}
+    \item Developed AI-Based Recommendations System
+    \item MultiThread Chat Application
+\end{itemize}
+
+\section*{Achievements}
+\begin{itemize}
+    \item Finalist – Gen-trix Hackathon 2025 
+    \item 3rd Rank – University Level (2nd Semester) \\
+    Ranked among the top performers in the university based on academic excellence
+\end{itemize}
+
+\section*{Languages}
+English (Fluent), Tamil (Native)
+
+\end{document}
